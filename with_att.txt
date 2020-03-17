@@ -1,0 +1,67 @@
+Received: from mail.domain.tld [0.0.0.0.0] by receiving.domain2.tld with SERVER_SOFTWARE (0544.474649474E464D484B4C);
+ using TLS (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128) 17 Mar 2020 10:50:43 UT
+Received: from domain.tld ([0.0.0.0.0]) by relay.domain.ltd
+ (mreue109 [0.0.0.0.0]) with ESMTPSA (Nemesis) id
+ 1Mc02T-1jrKpp31VX-00dadv; Tue, 17 Mar 2020 11:50:20 +0100
+From: "John Doe" <user@domain.tld>
+Subject: =?iso-8859-1?Q?title
+To: recipient@domain.tld
+Date: 17 Mar 2020 10:50:46 +0000
+Priority: normal
+X-Priority: 3 (Normal)
+Importance: normal
+X-David-Sym: 0
+X-David-Flags: 33554432
+Disposition-Notification-To: <user@domain.tld>
+Return-Receipt-To: <user@domain.tld>
+Message-ID: <DIIE.00000B5800050A35@domain.tld>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="----_=_NextPart_000_0E6F5A37.5E70B996"
+
+This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+------_=_NextPart_000_0E6F5A37.5E70B996
+Content-Type: multipart/related;
+ type="multipart/alternative";
+ boundary="----_=_NextPart_001_0E6F5A37.5E70B996"
+
+------_=_NextPart_001_0E6F5A37.5E70B996
+Content-Type: multipart/alternative;
+ boundary="----_=_NextPart_002_0E6F5A37.5E70B996"
+
+------_=_NextPart_002_0E6F5A37.5E70B996
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+foo_text
+
+------_=_NextPart_002_0E6F5A37.5E70B996
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns:o =3D "urn:schemas-microsoft-com:office:office">foo_html</HTML>
+------_=_NextPart_002_0E6F5A37.5E70B996--
+
+------_=_NextPart_001_0E6F5A37.5E70B996
+Content-Type: application/octet-stream; name="CLIP-{CAD05A1D-0F6F-4BC6-A815-E0BC9DA60E76}.png"
+Content-Transfer-Encoding: base64
+Content-ID: <0958-0033-0A-03-TJ-8>
+
+<png>
+
+------_=_NextPart_001_0E6F5A37.5E70B996--
+
+------_=_NextPart_000_0E6F5A37.5E70B996
+Content-Type: application/pdf; name="=?iso-8859-1?Q?foo.pdf?="
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename="=?iso-8859-1?Q?foo.pdf?=";
+ modification-date="Tue, 17 Mar 2020 09:57:04 +0000"
+
+cgo8PAovSW5mbyAyMiAwIFIKL1Jvb3QgMSAwIFIKL1NpemUgMjMKPj4Kc3RhcnR4cmVmCjQy
+NzI1NwolJUVPRgo=
+
+------_=_NextPart_000_0E6F5A37.5E70B996--
